@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Enova - Multipurpose Business WordPress Theme Documentation</title>
+
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+	
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="assets/syntax-highlighter/styles/shCoreDefault.css" media="all">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800|Open+Sans" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar sidebar-boxed sidebar-dark">
+
+        <a class="sidebar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+
+        <ul class="nav sidenav dropable">
+            <li><a href="#intro">Introduction</a></li>
+            <li>
+                <a href="#installation">Installation</a>
+                <ul>
+                    <li><a href="#getstarted">Getting Started</a></li>
+                    <li><a href="#themeinstall">Installing The Theme</a></li>
+					<li><a href="#themeinstalltutorial">Theme Installation Tutorial</a></li>
+					<li><a href="#how-to-update">How To Update</a></li>
+					<li><a href="#demo-import">One Click Demo Import</a></li>
+                    <li><a href="#set-home-blog">Set Homepage and Blog</a></li>
+                    <li><a href="#settingupmenu">Setting up the Menu</a></li>
+                    <li><a href="#contactform">Contact Form 7 Settings</a></li>
+                    <li><a href="#customizer">Theme Customizer</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="#elementor">Elementor</a></li>
+            <li><a href="#mastersliderpro">Master Slider Pro</a></li>
+            <li>
+                <a href="#theme-options">Theme Options</a></li>
+            <li><a href="#sourceandcredit">Source &amp; Credits</a></li>
+        </ul>
+
+    </aside>
+    <!-- END Sidebar -->
+
+
+    <header class="site-header navbar-transparent">
+
+        <!-- Top navbar & branding -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+
+                <!-- Toggle buttons and brand -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+                        <span class="glyphicon glyphicon-option-vertical"></span>
+                    </button>
+
+                    <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- END Toggle buttons and brand -->
+
+                <!-- Top navbar -->
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="http://dynamiclayers.net/support" target="_blank">Support</a>
+                        </li>
+                        <li class="hero">
+                            <a href="#" target="_blank" class="doc_btn">Purchase Now</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END Top navbar -->
+            </div>
+        </nav>
+        <!-- END Top navbar & branding -->
+
+        <!-- Banner -->
+        <div id="intro" class="banner auto-size">
+            <div class="container-fluid banner-text text-white">
+                <h1>Enova Documentation</h1>
+                <ul>
+                    <li>Created: 05 April</li>
+                    <li>Last Updated: 05 April</li>
+                    <li>By: DynamicLayers</li>
+                    <li>Email: support@dynamiclayers.net</li>
+                </ul>
+            </div>
+        </div>
+        <!-- END Banner -->
+
+    </header>
+
+    <main class="container-fluid">
+
+        <!-- Main content -->
+        <article class="main-content" role="main">
+        
+            <div class="intro-wrapper">
+                <h2>Welcome</h2>
+                <p class="lead">
+                    Thank you for purchasing our theme, now you are an owner of a regular license of Enova - WordPress Theme for Multipurpose Business Website.</p>
+
+                <p>This documentation help you to start working with your new wordpress theme. Covers the installation, set-up, help on getting started and extensive description of all features available.</p>
+
+                <p class="mb-30">It's recommended you read it thoroughly to fully leverage the theme's capabilities.</p>
+
+                <h4>Support Policy</h4>
+
+                <p class="mb-30">In case you could have any doubt about some detail explained here or any other problem just create a support ticket, We will try to help as better as possible.</p>
+
+                <p>
+                    If you like this theme, please to rate it at ThemeForest - it really helps us to know what people think about our themes. To rate this item, go to your Downloads page on ThemeForest, then next to this theme click on a star rating you'd like to give us.
+                </p>
+                <p>
+                    Thank you so much.<br>
+                    - DynamicLayers
+                </p>
+            </div>
+
+            <section id="installation" class="installation">
+
+                <h2 id="getstarted">Getting Started</h2>
+
+                <p>To install this theme you must have a working version of Wordpress already installed. </p>
+                
+                <ul>
+                    <li>For information in regard to installing the Wordpress Platform, please see the Wordpress Codex: <a href="https://codex.wordpress.org/Installing_WordPress" target="_blank">Installing Wordpress</a></li>
+                    <li>Before to start working with your new theme, make sure that your Wordpress Version is updated to the <a href="https://wordpress.org/download/" target="_blank">latest one</a>.</li>
+                    <li>You can know more about Wordpress Requirements <a href="https://wordpress.org/about/requirements/" target="_blank">here</a>.</li>
+                </ul>
+
+            </section>
+
+            <section class="theme-install">
+
+                <h2 id="themeinstall">Installing The Theme</h2>
+
+                <p class="mb-30">
+                    Basically there are two methods to install the <b>Enova</b> Wordpress Theme. <br>The first one is using the Wordpress Theme Installer and the second is installing it using the FTP method.
+                </p>
+                
+                <h4>Wordpress Theme Installer</h4>
+                <ul class="mb-30">
+                    <li>Login into the Wordpress Dashboard and search for <b>Appearance -> Themes.</b></li>
+                    <li>Click <b>"Add New"</b> at the top of the page.</li>
+                    <li>Now click on <b>"Upload Theme"</b>.</li>
+                    <li>Choose the zip file you will find within the whole package you downloaded from Themeforest -> <b>"Enova.zip"</b></li>
+                    <li>Once the installation is complete you can <b>activate the Enova Theme</b></li>
+                </ul>
+                
+                <h4>FTP Upload Method</h4>
+                <ul class="mb-40">
+                    <li>Using your FTP client, login to your server via FTP and navigate to <b>"wp-content/themes"</b> under your web site's root directory.</li>
+                    <li>Here you must to place the main folder you will find within the whole package you downloaded from Themeforest, this folder called <b>"Enova"</b> ( unzipped version ).</li>
+                    <li>Once your files are completely uploaded to your server, log into the Wordpress Dashboard and go to <b>"Appearance -> Themes"</b>.</li>
+                    <li>Search the <b>Enova Theme</b>Screeshot and click to <b>"Activate"</b>.</li>
+                </ul>
+                
+            </section>
+			<section>
+
+                <h2 id="how-to-update">How to update?</h2>
+
+                <p>
+                    There are two ways to update the theme. The regular and auto way.
+                </p>
+                <h4>Automatic</h4>
+                <p>This is the easiest way to update a theme. You can do that by Envato Market Plugin. We already included this plugin with our theme. You need to install and activate the plugin and configure it with your themeforest profile. For configuring this plugin follow this tutorial article: <a href="https://www.wpexplorer.com/envato-market-plugin-guide/" target="_blank">https://www.wpexplorer.com/envato-market-plugin-guide/</a>.</p>
+
+                <h4>Manual</h4>
+                <p>Go to your <b>"Themeforest Download Account"</b> and download the latest package. Unzip it and overwrite the theme folder on your server via a FTP Client.</p>
+
+                <h4>Plugins</h4>
+                <p>If the theme uses plugins and there are updates available for theme, you should see a notification and be able to easily install theme.However if you don't see the notification bar, you can update the plugins manually as well. </p>
+
+                <p>Plugin zip files are located in the theme-folder/inc/tgm/plugins/</p>
+				
+            </section>
+
+            <section id="">
+
+                <h2 id="demo-import">One Click Demo Content Import</h2>
+                <p class="mb-30">
+                   You can easily import demo data using our one-click demo content importer. View our screenshot to the demo import page.</p>
+
+                    <h4>A ScreenShot of Demo Import Page</h4>
+					<img src="assets/img/demo-import.png"/>
+					
+            </section>
+
+            <section id="">
+
+                <h2 id="set-home-blog">Set Front Page and and Posts Page</h2>
+				<h4>Please go through the following points to learn how to set Front Page and Posts page:</h4>
+				<ol class="mb-30">
+					<li>Login to WordPress admin panel (URL should be <code>www.yourdomain.com/wp-admin</code> )</li>
+					<li>Navigate to <code>"Settings > Reading"</code>.
+						<img src="assets/img/settings-reading.png"/>
+					</li>
+					<li>From dropdown, select which page you want to set as <code>"Front Page"</code> and which page you want as <code>“blog posts”</code> page. Default Front Page is <code>‘Home’ </code>and default posts page is <code>‘Blog’</code>.
+						<img src="assets/img/settings-reading-2.png"/>
+					</li>
+					<li>Click on ‘Save Changes’ button to save all.</li>
+				</ol>
+
+            </section>
+
+            <section id="">
+
+                <h2 id="settingupmenu">Setting up the Menu</h2>
+
+                <p>
+                    The final step before you can start with the new theme is to create your menu, it will be really easy. If you import our demo data it will automatically make a menu for you and set it a primary location.</p>
+
+                    <p>Let's make your own menu.<br/>
+					Go to <b>"Appearance -> Menus"</b> and you will see a panel where you can create new menus. Create one, add your created pages to it and save it.
+                    After this in <b>"Menu Settings"</b> below the menu select <b>"Primary Menu"</b> and hit <b>"Save Menu"</b>. </p>
+
+                    <p>For One Page Menu you need to use <b>custom links</b> option to make one page menu. Put your section ID in the <b>URL field</b> and menu text goes <b>Link Text</b> field. Then hit <b>Add to Menu</b> Button.</p>
+					
+					<img class="mb-30" src="assets/img/menu.png"/>
+					
+                    <p><b>Note:</b> that you can use up to two levels of navigation in this theme.</p>
+
+            </section>
+
+            <section id="">
+
+                <h2 id="contactform">Contact Form</h2>
+
+                <p>
+                    Contact form 7 is used to create ‘easy to handle’ and ‘easy to customize’ forms. Enova theme has a pre-built forms. To get all forms, ‘Contact Form 7’ plugin must be installed and activated. You can add/edit/delete the contact form by following this documentation--- <br/><a href="https://contactform7.com/getting-started-with-contact-form-7/" target="_blank">https://contactform7.com/getting-started-with-contact-form-7/</a></p>
+
+                    <p>Our Pre-Made Contact Form Markup is Here:</p>
+					<pre class="brush: html" style="margin-bottom: 30px">
+
+&lt;div class="cf7-col-row">
+    &lt;div class="cf7-col">
+        [text* first-name placeholder "First name"]
+    &lt;/div>
+    &lt;div class="cf7-col">
+        [text* last-name placeholder "Last name"]
+    &lt;/div>
+&lt;/div>
+&lt;div class="cf7-col-row">
+    &lt;div class="cf7-col">
+        [email* your-email placeholder "Your email"]
+    &lt;/div>
+    &lt;div class="cf7-col">
+       [text phone-number placeholder "Phone Number"]
+    &lt;/div>
+&lt;/div>
+   [textarea* message placeholder "Mes
+			   </pre>
+					<p class="mb-30">You can easily make contact form by using this contact form 7 markup. Just put this code in contact form 7 form editor.</p>
+					
+					<img src="assets/img/cf7.png"/>
+
+            </section>
+
+            <section>
+
+                <h2 id="customizer">Theme Customizer</h2>
+
+                <p>
+                    After activating the theme, you will notice that a new submenu item appeared, under <b>"Appearance -> Customize"</b>. </p>
+               <p>If you click on it you will be taken to the WordPress customizer, a tool which will allow you to modify the look and feel of your website.</p>
+
+                <p>Unfortunately not all theme options features are present. You can select only the body background color, background image, custom header image, logo & favicon.</p>
+					
+            </section>
+
+            <section id="elementor" class="installation">
+
+                <h2 id="getstarted">Elementor Page Builder</h2>
+
+                <p>Know about elementor page builder by these tutorials.</p>
+                
+                <div class="embed-video">
+                    <iframe width="560" height="480" src="https://www.youtube.com/embed/videoseries?list=PLZyp9H25CboFCGdA4yjOHr4VlQUAgKxzJ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+            <section id="mastersliderpro" class="installation">
+
+                <h2 id="getstarted">Master Slider Pro</h2>
+
+                <p>Master Slider video tutorials.</p>
+                <h4>Add New Slider</h4>
+                <div class="embed-video">
+                    <iframe width="560" height="480" src="https://www.youtube.com/embed/v3IlxvwNesE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+                <h4>Working with Layers</h4>
+                <div class="embed-video">
+                    <iframe width="560" height="480" src="https://www.youtube.com/embed/bYxWaojvi9c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2 id="theme-options">Enova Options</h2>
+
+                <p>We listed below all our theme options. You can learn how we used Enova WordPress theme options in below.</p>
+				
+				<p>Navigate to <b>Dashboard → Appearance → Enova Options</b> :</p>
+				<p>In Theme Options has different Tabs:</p>
+				<ul class="mb-30">
+					<li><b>General :</b> From this tab you can control Breadcrumbs, Scroll Top, Preloader & Smooth Animation settings.</li>
+					<li><b>Header :</b> From this tab you can control all header related settings.</li>
+					<li><b>Theme Layout :</b> From this tab you can control theme layout settings.</li>
+					<li><b>Typography/Fonts :</b> From this tab you can control theme typography.</li>
+					<li><b>Archives :</b> From this tab you can control theme archives page settings.</li>
+					<li><b>Portfolio Details :</b> From this tab you can control theme portfolio details page settings.</li>
+					<li><b>Blog :</b> From this tab you can control theme blog settings.</li>
+					<li><b>Page :</b> From this tab you can control theme page settings.</li>
+					<li><b>Search Page :</b> From this tab you can control theme search page settings.</li>
+					<li><b>Author Page :</b> From this tab you can control theme author page settings.</li>
+					<li><b>404 Page :</b> From this tab you can control theme 404 page settings.</li>
+					<li><b>Admin Login Options :</b> From this tab you can control your wordpress login page settings.</li>
+					<li><b>Footer Widgets :</b> From this tab you can control theme footer widgets settings.</li>
+					<li><b>Footer :</b> From this tab you can control theme footer settings.</li>
+					<li><b>Backup :</b> From this tab you can backup your options for later use.</li>
+				</ul>
+				
+				<img src="assets/img/options-page.png"/>
+
+            </section>
+
+            <section>
+
+                <h2 id="sourceandcredit">Source &amp; Credits</h2>
+				
+				<ul class="source">
+                    <li><a href="http://codestarframework.com/" target="_blank">CodeStar Framework</a></li>
+                    <li><a href="https://wordpress.org/plugins/elementor/" target="_blank">Elementor Page Builder</a></li>
+                    <li><a href="https://wordpress.org/plugins/breadcrumb-navxt/" target="_blank">Breadcrumb NavXT</a></li>
+                    <li><a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7</a></li>
+                    <li><a href="https://wordpress.org/plugins/one-click-demo-import/" target="_blank">One Click Demo Import</a></li>
+					<li><a href="https://jquery.com/" target="_blank">jquery</a></li>
+					<li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+					<li><a href="http://isotope.metafizzy.co/" target="_blank">Isotope</a></li>
+					<li><a href="https://owlcarousel2.github.io/OwlCarousel2/docs/started-welcome.html" target="_blank">Owl Carousel 2</a></li>
+					<li><a href="#" target="_blank">Master Slider Pro</a></li>
+					<li><a href="http://imagesloaded.desandro.com/" target="_blank">Image Loaded</a></li>
+					<li><a href="https://cssanimation.io/" target="_blank">cssanimation</a></li>
+				</ul>
+				
+				
+            </section>
+
+        </article>
+        <!-- END Main content -->
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <p>&copy; <script>document.write(new Date().getFullYear())</script> Enova by DynamicLayers.</p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="footer-menu">
+                        <li><a href="#sourceandcredit">Credits</a></li>
+                        <li><a href="mailto:contact.DynamicLayers@gmail.com">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="assets/syntax-highlighter/scripts/shCore.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushXml.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushCss.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushJScript.js"></script> 
+	<script type="text/javascript" src="assets/syntax-highlighter/scripts/shBrushPhp.js"></script> 
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+<script src="assets/js/theDocs.all.min.js"></script>
+
+</body>
+</html>
